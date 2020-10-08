@@ -1,0 +1,11 @@
+en:
+  hello: "Hello world"
+  title: "SampleApp1"
+  english: "English"
+  vietnamese: "Vietnamese"
+
+vi:
+  hello: "Xin chào"
+  title: "Dự án mẫu"
+  english: "Anh"
+  vietnamese: "Việt"
