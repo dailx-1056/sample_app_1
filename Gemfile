@@ -9,6 +9,8 @@ gem "sass-rails", "5.1.0"
 gem "webpacker", "4.0.7"
 gem "turbolinks", "5.2.0"
 gem "jbuilder", "2.9.1"
+gem "bootstrap-sass", "3.4.1"
+gem "config"
 gem "bootsnap", "1.4.4", require: false
 
 group :development, :test do

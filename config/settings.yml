@@ -1,0 +1,12 @@
+links:
+  rails:
+    tutorial: "https://www.railstutorial.org/"
+    home: "https://rubyonrails.org/"
+    help: "https://www.railstutorial.org/help"
+    contact: "https://www.railstutorial.org/contact"
+    book: "https://www.railstutorial.org/book"
+    news: "https://news.railstutorial.org/"
+    screencasts: "https://screencasts.railstutorial.org/"
+  others:
+    michaelhartl: "https://www.michaelhartl.com/"
+    learn_enough: "https://www.learnenough.com/"
