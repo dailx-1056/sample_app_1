@@ -10,3 +10,9 @@ links:
   others:
     michaelhartl: "https://www.michaelhartl.com/"
     learn_enough: "https://www.learnenough.com/"
+user_name:
+  max_length: 50
+email:
+  max_length: 255
+password:
+  min_length: 6
