@@ -30,15 +30,22 @@ en:
   micheal_hart: "Micheal Hart"
   error: "error"
   users: "Users"
+  new_user: "New user?"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+  account: "Account"
 
   common:
     create_account: "Create my account"
   message:
     welcome_message: "Welcome to Sample App!"
     user:
-      fail: "Create user failed"
-      success: "Successfuly"
       cant_find_user: "Can't find user"
+      create_fail: "Create user failed"
+      create_success: "Successfuly"
+      login_fail: "Login fail"
+      login_success: "Login success"
   user:
     name: "Name"
     email: "Email"
