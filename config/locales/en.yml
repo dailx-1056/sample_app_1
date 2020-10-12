@@ -28,3 +28,19 @@ en:
   sign_up: "Sign up"
   new_say: "This will be a signup page for new users"
   micheal_hart: "Micheal Hart"
+  error: "error"
+  users: "Users"
+
+  common:
+    create_account: "Create my account"
+  message:
+    welcome_message: "Welcome to Sample App!"
+    user:
+      fail: "Create user failed"
+      success: "Successfuly"
+      cant_find_user: "Can't find user"
+  user:
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    confirm_password: "Confirmation"
