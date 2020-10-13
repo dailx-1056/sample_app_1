@@ -1,8 +1,12 @@
-<% provide :title, t("user") %>
-<div>
-  <ul>
-    <% @users.each do |user| %>
-      <li><%= user.email %></li>
-    <% end %>
-  </ul>
-</div>
+<% provide :title, t("users") %>
+<h1><%= t "users" %></h1>
+
+<%= paginate @users %>
+
+<ul class="users">
+  <% @users.each do |user| %>
+    <%= render user %>
+  <% end %>
+</ul>
+
+<%= paginate @users %>

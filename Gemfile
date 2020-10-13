@@ -13,6 +13,8 @@ gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "bcrypt", "3.1.13"
 gem "bootsnap", "1.4.4", require: false
+gem "kaminari"
+gem "bootstrap-kaminari-views"
 
 group :development, :test do
   gem "mysql2", "~> 0.4.10"
@@ -27,6 +29,7 @@ group :development do
   gem "listen", "3.1.5"
   gem "spring", "2.1.0"
   gem "spring-watcher-listen", "2.0.1"
+  gem "faker", "2.1.2"
 end
 
 group :test do

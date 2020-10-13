@@ -11,7 +11,8 @@ class User < ApplicationRecord
     format: {with: URI::MailTo::EMAIL_REGEXP},
     uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-    length: {minimum: Settings.password.min_length}
+    length: {minimum: Settings.password.min_length},
+    allow_nil: true
 
   has_secure_password
 
@@ -29,7 +30,7 @@ class User < ApplicationRecord
   end
 
   def remember
-    self.remember_token = User.new_token
+    remember_token = User.new_token
     update_attribute :remember_digest, User.digest(remember_token)
   end
 
