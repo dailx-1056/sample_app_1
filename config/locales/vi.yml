@@ -28,3 +28,19 @@ vi:
   sign_up: "Đăng kí"
   new_say: "Đây là trang đăng kí cho người dùng mới"
   micheal_hart: "Micheal Hart"
+  error: "lỗi"
+  users: "Nguoi dung"
+
+  common:
+    create_account: "Tạo tài khoản"
+  message:
+    welcome_message: "Chào mừng tới với Dự án mẫu"
+    user:
+      fail: "Tạo người dùng thất bại"
+      success: "Thành công"
+      cant_find_user: "Không tìm thấy người dùng"
+  user:
+    name: "Tên"
+    email: "Email"
+    password: "Mật khẩu"
+    confirm_password: "Xác nhận mật khẩu"
