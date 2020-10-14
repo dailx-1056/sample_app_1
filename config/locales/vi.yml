@@ -30,15 +30,22 @@ vi:
   micheal_hart: "Micheal Hart"
   error: "lỗi"
   users: "Nguoi dung"
+  new_user: "Người dùng mới?"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
+  account: "Tài khoản"
 
   common:
     create_account: "Tạo tài khoản"
   message:
     welcome_message: "Chào mừng tới với Dự án mẫu"
     user:
-      fail: "Tạo người dùng thất bại"
-      success: "Thành công"
       cant_find_user: "Không tìm thấy người dùng"
+      create_fail: "Không thể tạo tài khoản"
+      create_success: "Thành công"
+      login_fail: "Đăng nhập thất bại"
+      login_success: "Đăng nhập thành công"
   user:
     name: "Tên"
     email: "Email"
