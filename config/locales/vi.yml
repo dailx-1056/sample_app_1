@@ -31,6 +31,10 @@ vi:
   error: "lỗi"
   users: "Nguoi dung"
   new_user: "Người dùng mới?"
+  edit_user: "Sửa người dùng"
+  update_profile: "Cập nhật thông tin của bạn"
+  change: "Thay đổi"
+  save_changes: "Lưu thay đổi"
   profile: "Hồ sơ"
   settings: "Cài đặt"
   log_out: "Đăng xuất"
@@ -41,12 +45,17 @@ vi:
     create_account: "Tạo tài khoản"
   message:
     welcome_message: "Chào mừng tới với Dự án mẫu"
+    require_login: "Vui lòng đăng nhập trước."
     user:
       cant_find_user: "Không tìm thấy người dùng"
       create_fail: "Không thể tạo tài khoản"
       create_success: "Thành công"
       login_fail: "Đăng nhập thất bại"
       login_success: "Đăng nhập thành công"
+      update_fail: "Sửa thất bại"
+      update_success: "Sửa thành công"
+      confirm_delete: "Bạn có chắc muốn xóa không?"
+      delete_success: "Xóa thành công"
   user:
     name: "Tên"
     email: "Email"
