@@ -17,5 +17,6 @@ email:
   max_length: 255
 password:
   min_length: 6
-pagination:
-  per_page: 5
+page: 5
+ava:
+  size: 80
