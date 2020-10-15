@@ -35,6 +35,7 @@ vi:
   settings: "Cài đặt"
   log_out: "Đăng xuất"
   account: "Tài khoản"
+  remember_me: "Nhớ tôi"
 
   common:
     create_account: "Tạo tài khoản"

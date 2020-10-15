@@ -35,6 +35,7 @@ en:
   settings: "Settings"
   log_out: "Log out"
   account: "Account"
+  remember_me: "Remember me"
 
   common:
     create_account: "Create my account"
