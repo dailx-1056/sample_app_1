@@ -1,8 +1,11 @@
 <% provide :title, t("about") %>
 <h1><%= t "about" %></h1>
 <p>
-  <%= t "the" %> <em><%= link_to t("tutorial"), Settings.links.rails.tutorial %></em>, <%= t "part_of" %>
-  <%= link_to t("learn_enough"), Settings.links.others.learn_enough %> <%= t "family_of_tutorial" %>
+  <%= t "the" %> <em>
+  <%= link_to t("tutorial"), Settings.links.rails.tutorial %>
+  </em>,<%= t "part_of" %>
+  <%= link_to t("learn_enough"), Settings.links.others.learn_enough %>
+  <%= t "family_of_tutorial" %>
   <%= link_to t("book"), Settings.links.rails.book %> <%= t "and" %>
   <%= link_to "screencast series", Settings.links.rails.screencasts %>
   <%= t "to_teach_web_development_with" %>

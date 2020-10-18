@@ -12,7 +12,14 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
-  def show; end
+  def show
+    @microposts = @user
+                  .microposts
+                  .order_by_created_at
+                  .includes([:image_attachment])
+                  .page(params[:page])
+                  .per Settings.page
+  end
 
   def create
     @user = User.new user_params
@@ -40,8 +47,11 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    @user.destroy
-    flash[:success] = t "message.user.delete_success"
+    if @user.destroy
+      flash[:success] = t "message.user.delete_success"
+    else
+      flash[:danger] = t "message.user.delete_fail"
+    end
     redirect_to users_url
   end
 
@@ -56,14 +66,6 @@ class UsersController < ApplicationController
 
     flash.now[:danger] = t "message.user.cant_find_user"
     redirect_to users_url
-  end
-
-  def logged_in_user
-    return if loged_in?
-
-    store_location
-    flash[:danger] = t "message.require_login"
-    redirect_to login_url
   end
 
   def correct_user

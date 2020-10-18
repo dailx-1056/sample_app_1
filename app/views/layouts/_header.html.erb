@@ -5,7 +5,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t("home"), home_path %></li>
         <li><%= link_to t("help"), help_path %></li>
-        <% if loged_in? %>
+        <% if logged_in? %>
           <li><%= link_to t("users"), users_path %></li>
           <li class="dropdown">
             <%= link_to "#", class: "dropdown-toggle",

@@ -17,6 +17,13 @@ email:
   max_length: 255
 password:
   min_length: 6
+micropost:
+  max_length: 140
+  type: "image/jpeg image/gif image/png"
+  view_type: "image/jpeg, image/gif, image/png"
+  img_limit: 500
 page: 5
 ava:
   size: 80
+user:
+  size: 50
