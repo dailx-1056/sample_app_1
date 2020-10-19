@@ -14,6 +14,7 @@ gem "config"
 gem "bcrypt", "3.1.13"
 gem "bootsnap", "1.4.4", require: false
 gem "kaminari"
+gem "figaro"
 gem "bootstrap-kaminari-views"
 
 group :development, :test do

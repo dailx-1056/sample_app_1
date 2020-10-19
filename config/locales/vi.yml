@@ -40,12 +40,21 @@ vi:
   log_out: "Đăng xuất"
   account: "Tài khoản"
   remember_me: "Nhớ tôi"
+  welcome: "Chào mừng tới với sample app. Kích hoạt tài khoản"
+  find_me: "Tìm tôi tại app/views/user_mailer/password_reset.html.erb"
+  password_reset: "Đặt lại mật khẩu"
+  activate: "Kích hoạt"
+  account_activation: "Kích hoạt tài khoản"
 
   common:
     create_account: "Tạo tài khoản"
   message:
     welcome_message: "Chào mừng tới với Dự án mẫu"
     require_login: "Vui lòng đăng nhập trước."
+    check_email: "Kiểm tra mail để kích hoạt tài khoản của bạn."
+    account_not_activated: "Kiểm tra mail để kích hoạt tài khoản của bạn."
+    account_activated: "Tài khoản kích hoạt thành công"
+    invalid_link: "Link kích hoạt không hợp lệ"
     user:
       cant_find_user: "Không tìm thấy người dùng"
       create_fail: "Không thể tạo tài khoản"

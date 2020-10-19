@@ -40,12 +40,21 @@ en:
   log_out: "Log out"
   account: "Account"
   remember_me: "Remember me"
+  welcome: "Welcome to the Sample App! activate your account"
+  find_me: "find me in app/views/user_mailer/password_reset.html.erb"
+  password_reset: "Password reset"
+  activate: "Activate"
+  account_activation: "Account Activation"
 
   common:
     create_account: "Create my account"
   message:
     welcome_message: "Welcome to Sample App!"
     require_login: "Please log in."
+    check_email: "Please check your email to activate your account."
+    account_not_activated: "Account not activated. Check your email"
+    account_activated: "Account activated!"
+    invalid_link: "Invalid activation link"
     user:
       cant_find_user: "Can't find user"
       create_fail: "Create user failed"

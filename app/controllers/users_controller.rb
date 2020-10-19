@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.page(params[:page]).per Settings.pagination.per_page
+    @users = User.get_activated.page(params[:page]).per Settings.page
   end
 
   def new
@@ -17,9 +17,10 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "message.welcome_message"
-      redirect_back_or @user
+      @user.send_activation_email
+      UserMailer.account_activation(@user).deliver_now
+      flash[:info] = t "message.check_email"
+      redirect_to root_url
     else
       flash.now[:danger] = t "message.user.create_fail"
       render :new
@@ -51,7 +52,7 @@ class UsersController < ApplicationController
 
   def get_user
     @user = User.find_by id: params[:id]
-    return if @user
+    return if @user&.activated
 
     flash.now[:danger] = t "message.user.cant_find_user"
     redirect_to users_url
