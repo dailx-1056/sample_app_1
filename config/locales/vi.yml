@@ -45,9 +45,13 @@ vi:
   password_reset: "Đặt lại mật khẩu"
   activate: "Kích hoạt"
   account_activation: "Kích hoạt tài khoản"
+  forgot_password: "(quên mật khẩu)"
+  update_password: "Cập nhật mật khẩu"
+  submit: "Gửi"
 
   common:
     create_account: "Tạo tài khoản"
+    no_empty: "Không thể rỗng"
   message:
     welcome_message: "Chào mừng tới với Dự án mẫu"
     require_login: "Vui lòng đăng nhập trước."
@@ -55,6 +59,10 @@ vi:
     account_not_activated: "Kiểm tra mail để kích hoạt tài khoản của bạn."
     account_activated: "Tài khoản kích hoạt thành công"
     invalid_link: "Link kích hoạt không hợp lệ"
+    missing_email_address: "Không tìm được địa chỉ email"
+    email_reset_instruction: "Email gửi với hướng dẫn đặt lại password"
+    password_reseted: "Mật khẩu đã được đặt lại."
+    password_expired: "Link hết hạn."
     user:
       cant_find_user: "Không tìm thấy người dùng"
       create_fail: "Không thể tạo tài khoản"

@@ -45,9 +45,13 @@ en:
   password_reset: "Password reset"
   activate: "Activate"
   account_activation: "Account Activation"
+  forgot_password: "(forgot password)"
+  update_password: "Update password"
+  submit: "Submit"
 
   common:
     create_account: "Create my account"
+    no_empty: "can't be empty"
   message:
     welcome_message: "Welcome to Sample App!"
     require_login: "Please log in."
@@ -55,6 +59,10 @@ en:
     account_not_activated: "Account not activated. Check your email"
     account_activated: "Account activated!"
     invalid_link: "Invalid activation link"
+    missing_email_address: "Email address not found"
+    email_reset_instruction: "Email send with password reset instructions"
+    password_reseted: "Password has been reset."
+    password_expired: "Password reset has expired."
     user:
       cant_find_user: "Can't find user"
       create_fail: "Create user failed"
