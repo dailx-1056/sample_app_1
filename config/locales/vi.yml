@@ -56,6 +56,11 @@ vi:
   max_size_image: "nên nhỏ hơn 5MB"
   rails_logo: "Rails logo"
   alert_img_size: "Phải nhỏ hơn 5mb"
+  following: "đang theo dõi"
+  followers: "người theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
+  view_my_profile: "Xem trang cá nhân của tôi"
 
   common:
     create_account: "Tạo tài khoản"
@@ -75,6 +80,7 @@ vi:
     must_valid_format: "phải đúng kích thước chuẩn"
     user:
       cant_find_user: "Không tìm thấy người dùng"
+      cant_find_relation: "Không tìm thấy quan hệ"
       create_fail: "Không thể tạo tài khoản"
       create_success: "Thành công"
       login_fail: "Đăng nhập thất bại"
@@ -83,6 +89,8 @@ vi:
       update_success: "Sửa thành công"
       confirm_delete: "Bạn có chắc muốn xóa không?"
       delete_success: "Xóa thành công"
+      unfollow_success: "Bỏ theo dõi thành công"
+      unfollow_fail: "Bỏ theo dõi thất bại"
   user:
     name: "Tên"
     email: "Email"

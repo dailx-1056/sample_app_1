@@ -25,5 +25,6 @@ micropost:
 page: 5
 ava:
   size: 80
+  small_size: 30
 user:
   size: 50

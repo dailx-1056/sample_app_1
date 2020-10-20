@@ -56,6 +56,11 @@ en:
   max_size_image: "should be less than 5MB"
   rails_logo: "Rails logo"
   alert_img_size: "Must be lower than 5MB"
+  following: "following"
+  followers: "followers"
+  follow: "follow"
+  unfollow: "unfollow"
+  view_my_profile: "View my profile"
 
   common:
     create_account: "Create my account"
@@ -75,6 +80,7 @@ en:
     must_valid_format: "must be a valid image format"
     user:
       cant_find_user: "Can't find user"
+      cant_find_relation: "Can't find relation"
       create_fail: "Create user failed"
       create_success: "Successfuly"
       login_fail: "Login fail"
@@ -84,6 +90,8 @@ en:
       confirm_delete: "You sure?"
       delete_success: "Deleted"
       delete_fail: "Delete fail"
+      unfollow_success: "Unfollow success"
+      unfollow_fail: "Unfollow fail"
   user:
     name: "Name"
     email: "Email"
