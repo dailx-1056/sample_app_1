@@ -1,6 +1,8 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
 
+  has_many :microposts, dependent: :destroy
+
   USER_PARAMS = %i(name email password password_confirmation).freeze
   before_save :downcase_email
   before_create :create_activation_digest
@@ -67,6 +69,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_send_at < 2.hours.ago
+  end
+
+  def feed
+    microposts.order_by_created_at
   end
 
   private

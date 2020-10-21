@@ -16,6 +16,8 @@ gem "bootsnap", "1.4.4", require: false
 gem "kaminari"
 gem "figaro"
 gem "bootstrap-kaminari-views"
+gem "active_storage_validations", "0.8.2"
+gem "i18n-js"
 
 group :development, :test do
   gem "mysql2", "~> 0.4.10"
@@ -31,6 +33,9 @@ group :development do
   gem "spring", "2.1.0"
   gem "spring-watcher-listen", "2.0.1"
   gem "faker", "2.1.2"
+  gem "image_processing", "1.9.3"
+  gem "mini_magick", "4.9.5"
+  gem "bullet"
 end
 
 group :test do

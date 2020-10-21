@@ -28,12 +28,12 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
 
   config.action_mailer.smtp_settings = {
-    :user_name: ENV["user_name"],
-    :password: ENV["user_password"],
-    :address: ENV["mail_address"],
-    :domain: ENV["domain"],
-    :port: ENV["mail_port"],
-    :authentication: :cram_md5
+    user_name: ENV["user_name"],
+    password: ENV["user_password"],
+    address: ENV["mail_address"],
+    domain: ENV["domain"],
+    port: ENV["mail_port"],
+    authentication: :cram_md5
   }
 
   config.active_support.deprecation = :log

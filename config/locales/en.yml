@@ -48,10 +48,19 @@ en:
   forgot_password: "(forgot password)"
   update_password: "Update password"
   submit: "Submit"
+  posted: "Posted"
+  micropost_feed: "Micropost Feed"
+  view_profile: "view my profile"
+  microposts: "micropost"
+  invalid_image: "invalid image format"
+  max_size_image: "should be less than 5MB"
+  rails_logo: "Rails logo"
+  alert_img_size: "Must be lower than 5MB"
 
   common:
     create_account: "Create my account"
     no_empty: "can't be empty"
+    post: "Post"
   message:
     welcome_message: "Welcome to Sample App!"
     require_login: "Please log in."
@@ -63,6 +72,7 @@ en:
     email_reset_instruction: "Email send with password reset instructions"
     password_reseted: "Password has been reset."
     password_expired: "Password reset has expired."
+    must_valid_format: "must be a valid image format"
     user:
       cant_find_user: "Can't find user"
       create_fail: "Create user failed"
@@ -73,8 +83,11 @@ en:
       update_success: "Update success"
       confirm_delete: "You sure?"
       delete_success: "Deleted"
+      delete_fail: "Delete fail"
   user:
     name: "Name"
     email: "Email"
     password: "Password"
     confirm_password: "Confirmation"
+  micropost:
+    compose_micropost: "Compose new micropost..."

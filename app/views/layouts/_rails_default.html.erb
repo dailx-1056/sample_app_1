@@ -4,5 +4,8 @@
 <%= link_to t("english"), locale: "en" %>
 <%= link_to t("vietnamese"), locale: "vi" %>
 
+<%= javascript_include_tag "/javascripts/i18n.js" %>
+<%= javascript_include_tag "translations", skip_pipeline: true %>
+
 <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
 <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>

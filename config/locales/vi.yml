@@ -48,10 +48,19 @@ vi:
   forgot_password: "(quên mật khẩu)"
   update_password: "Cập nhật mật khẩu"
   submit: "Gửi"
+  posted: "Đã gửi"
+  micropost_feed: "Micropost Feed"
+  view_profile: "Xem hồ sơ"
+  microposts: "bài viết"
+  invalid_image: "kiểu không hợp lệ"
+  max_size_image: "nên nhỏ hơn 5MB"
+  rails_logo: "Rails logo"
+  alert_img_size: "Phải nhỏ hơn 5mb"
 
   common:
     create_account: "Tạo tài khoản"
     no_empty: "Không thể rỗng"
+    post: "Gửi"
   message:
     welcome_message: "Chào mừng tới với Dự án mẫu"
     require_login: "Vui lòng đăng nhập trước."
@@ -63,6 +72,7 @@ vi:
     email_reset_instruction: "Email gửi với hướng dẫn đặt lại password"
     password_reseted: "Mật khẩu đã được đặt lại."
     password_expired: "Link hết hạn."
+    must_valid_format: "phải đúng kích thước chuẩn"
     user:
       cant_find_user: "Không tìm thấy người dùng"
       create_fail: "Không thể tạo tài khoản"
@@ -78,3 +88,5 @@ vi:
     email: "Email"
     password: "Mật khẩu"
     confirm_password: "Xác nhận mật khẩu"
+  micropost:
+    compose_micropost: "Soạn bài viết mới..."
