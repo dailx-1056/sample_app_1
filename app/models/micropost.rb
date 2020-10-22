@@ -3,7 +3,7 @@ class Micropost < ApplicationRecord
   has_one_attached :image
 
   scope :order_by_created_at, ->{order created_at: :desc}
-  scope :get_by_users_ids, ->(id){where user_id: id}
+  scope :feed, ->(user_ids){where user_id: user_ids}
 
   delegate :name, to: :user, prefix: true
 
